@@ -1,0 +1,1 @@
+MachinaDePlaya.local.key is signed by the certificate called MachinaDePlay.local-keystore.p12 which is also in MachinaDePlaya.local-CASigned.cer
