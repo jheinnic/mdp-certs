@@ -5,3 +5,5 @@
 serial.txt
 *.key
 *.keystore
+
+content/
