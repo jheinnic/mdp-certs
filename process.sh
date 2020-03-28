@@ -1,11 +1,12 @@
 #!/bin/sh
 
-rm MachinaDePlaya.local.* *.jks *.key *.csr *.cer *.p12
+rm `hostname`.csr `hostname`.cer `hostname`.jks
+rm *.jks *.key *.csr *.cer *.p12
 
 ./keytoolMakeKey.sh
 ./keytoolGenCsr.sh
 cd CA
-./signSelfCert.sh
+./selfSignCertReq.sh
 ./blankTrustCACert.sh
 cd ..
 ./jksToP12.sh
