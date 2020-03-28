@@ -1,0 +1,7 @@
+*.csr
+*.cer
+*.jks
+*.p12
+serial.txt
+*.key
+*.keystore
