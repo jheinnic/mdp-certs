@@ -2,4 +2,4 @@
 
 set RANDFILE=rand
 
-openssl genrsa -out caroot.key -pasout pass:abc123 2048
+openssl genrsa -out caroot.key -aes-256-cbc -passout pass:abc123 2048
