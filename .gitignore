@@ -1,9 +1,10 @@
 *.csr
 *.cer
 *.jks
+*.pem
 *.p12
-serial.txt
 *.key
 *.keystore
+serial.txt
 
 content/
